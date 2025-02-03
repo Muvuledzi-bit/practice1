@@ -1,8 +1,8 @@
-abstract class Shape{
+abstract class Shapes{
     abstract int area();
 }
 
-class Area extends Shape {
+class Area extends Shapes {
     int area() {
         int length = 7;
         int base = 3;
